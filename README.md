@@ -2,6 +2,8 @@
 
 PSR-7 middleware that parses Yaml files to ServerRequest attribute.
 
+[![Build Status](https://img.shields.io/travis/IchHabRecht/psr7-middleware-yaml-parser/master.svg)](https://travis-ci.org/IchHabRecht/psr7-middleware-yaml-parser)
+
 This middleware parses Yaml files or strings. The result is stored in an own ServerRequest attribute for further usage.
 
 ## Installation
