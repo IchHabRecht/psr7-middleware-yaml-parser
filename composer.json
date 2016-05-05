@@ -1,0 +1,24 @@
+{
+  "name": "ichhabrecht/psr7-middleware-yaml-parser",
+  "description": "PSR-7 Middleware that parses Yaml files to ServerRequest attribute",
+  "keywords": [
+    "PSR-7",
+    "middleware",
+    "yaml"
+  ],
+  "homepage": "https://github.com/IchHabRecht/psr7-middleware-yaml-parser",
+  "authors": [
+    {
+      "name": "Nicole Cordes",
+      "role": "Developer",
+      "homepage": "https://twitter.com/IchHabRecht"
+    }
+  ],
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "psr/http-message": "^1.0",
+    "symfony/yaml": "^3.0"
+  }
+}
