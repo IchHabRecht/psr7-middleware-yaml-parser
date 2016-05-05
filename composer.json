@@ -20,5 +20,10 @@
   "require": {
     "psr/http-message": "^1.0",
     "symfony/yaml": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "IchHabRecht\\Psr7MiddlewareYamlParser\\": "src"
+    }
   }
 }
