@@ -44,6 +44,10 @@ class YamlParser
      */
     public function __invoke(ServerRequestInterface $request, ResponseInterface $response, callable $next)
     {
+        if (!$next) {
+            return $response;
+        }
+
         $yaml = $this->yamlParser->parse(file_get_contents($this->yamlFile));
 
         $request = $request->withAttribute($this->attributeName, $yaml);
