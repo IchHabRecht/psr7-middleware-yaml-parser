@@ -1,6 +1,6 @@
 {
   "name": "ichhabrecht/psr7-middleware-yaml-parser",
-  "description": "PSR-7 Middleware that parses Yaml files to ServerRequest attribute",
+  "description": "PSR-7 middleware that parses Yaml files to ServerRequest attribute",
   "keywords": [
     "PSR-7",
     "middleware",

@@ -1,12 +1,16 @@
 # Yaml parser middleware
 
-PSR-7 Middleware that parses Yaml files to ServerRequest attribute.
+PSR-7 middleware that parses Yaml files to ServerRequest attribute.
 
 This middleware parses Yaml files or strings. The result is stored in an own ServerRequest attribute for further usage.
 
 ## Installation
 
-`composer require ichhabrecht/psr7-middleware-yaml-parser`
+It's recommended that you use [Composer](https://getcomposer.org/) to install the Yaml parser.
+
+```bash
+$ composer require ichhabrecht/psr7-middleware-yaml-parser
+```
 
 ## Usage
 
